@@ -4,68 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Gayly News Podcast</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <h1>🎙️ The Gayly News Podcast</h1>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="podcasts.html">Podcasts</a></li>
-                <li><a href="connect.html">Connect</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+    <header>
+        <h1>Welcome to The Gayly News Podcast</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#episodes">Episodes</a>
+        <a href="#contact">Contact</a>
     </nav>
-
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Welcome to The Gayly News Podcast</h2>
-                <p>Your source for LGBTQ+ news, stories, and conversations</p>
-                <p class="tagline">We bring you the latest news and engaging discussions from the LGBTQ+ community</p>
-            </div>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>The Gayly News Podcast provides insights, discussions, and stories from the LGBTQ+ community. Join us as we explore various topics, promote acceptance, and foster understanding through engaging conversations!</p>
         </section>
-
-        <section class="about">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>The Gayly News Podcast is dedicated to providing comprehensive coverage of news and stories affecting the LGBTQ+ community. We bring you informed perspectives, engaging conversations, and a platform for voices that matter.</p>
-                
-                <div class="features">
-                    <div class="feature">
-                        <h3>📰 Current News</h3>
-                        <p>Stay updated with the latest LGBTQ+ news from around the world</p>
-                    </div>
-                    <div class="feature">
-                        <h3>🎤 In-Depth Conversations</h3>
-                        <p>Listen to thoughtful discussions and interviews with community members</p>
-                    </div>
-                    <div class="feature">
-                        <h3>🌈 Community Focused</h3>
-                        <p>Celebrating and amplifying LGBTQ+ voices and experiences</p>
-                    </div>
-                </div>
-            </div>
+        <section id="episodes">
+            <h2>Latest Episodes</h2>
+            <p>Check out our latest episodes as we dive into fascinating topics and interview inspiring guests.</p>
+            <!-- Add episode links here later -->
         </section>
-
-        <section class="cta">
-            <div class="container">
-                <h2>Start Listening</h2>
-                <p>Subscribe to The Gayly News Podcast on your favorite platform</p>
-                <div class="button-group">
-                    <a href="podcasts.html" class="btn btn-primary">Browse Podcasts</a>
-                    <a href="connect.html" class="btn btn-secondary">Connect With Us</a>
-                </div>
-            </div>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or suggestions? Reach out to us at: <a href="mailto:info@thegaylynewspodcast.com">info@thegaylynewspodcast.com</a></p>
         </section>
-    </main>
-
+    </div>
     <footer>
-        <p>&copy; 2026 The Gayly News Podcast. All rights reserved.</p>
+        <p>&copy; 2026 The Gayly News Podcast</p>
     </footer>
 </body>
 </html>
